@@ -1,0 +1,227 @@
+/* -----desktop responsiveness---- */
+@media (max-width:1080px){
+    .header_btn{
+        display: none;
+}
+header .header_container{
+    padding: 30px 60px  30px 60px;
+    
+}
+.main_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main_img img{
+width: 170px;
+}
+.main_img{
+    gap: 30px;
+}
+
+.main_contents{
+    width: 600px;
+}
+
+.main_contents h1{
+    font-size: 20px;
+    }
+
+.main_contents p{
+    font-size: 15px;
+    line-height: 2;
+    }
+.valutico_id{
+     gap: 50px;
+     }
+    
+.valutico_skill{
+     width: 200px;
+     }
+.valutico_id h1{
+     font-size: 18px;
+    }
+.valutico_id p{
+     font-size: 13px;
+    }
+}
+
+/* -----Ipad responsiveness---- */
+@media (max-width:790px){
+    .first_sec_contents{
+        width: 600px;
+    
+    }
+    .first_sec_contents h1{
+        font-size: 35px;
+        }
+
+        .first_sec_contents p{
+            font-size: 18px;
+            }
+
+            .Hero_img img{
+                width: 650px;
+            }
+    .main_img img{
+        width: 120px;
+    }
+    .main_contents{
+    width: 680px;
+    text-align: center;
+}
+
+.main_contents h1{
+    padding-bottom: 5px;
+    font-size: 20px;
+    line-height: 1.5;
+    }
+
+.main_contents p{
+    font-size: 15px;
+    line-height: 1.5;
+    padding-bottom: 10px;
+    }
+
+    .valutico_skill{
+        width: 160px;
+        }
+
+
+        .valuation_contents{
+            width: 600px;
+        }
+    
+        .valuation_contents h1{
+            padding-bottom: 7px;
+            font-size: 22px;
+        }
+        .valuation_contents p{
+            font-size: 14px;
+        }
+        
+        .valuation_image img{
+            width: 400px;
+            height: 450px;
+            border-radius: 10px;
+        }
+        .valuation_wrapper{
+            gap: 40spx;
+        }
+        .valuation_sub{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 45px;
+        }
+        .valuation_sub > div {
+            width: 240px;
+        }
+        .valuation_sub > div > h3 {
+          font-size: 17px;
+        }
+        .valuation_sub > div > p {
+          font-size: 13px;
+        }
+    }
+
+    /* -----mobile responsiveness---- */
+@media (max-width:740px){
+    header .nav ul{
+        display: none;
+    }
+
+    #fa-open{
+        font-size: 25px;
+        display: block;}
+    .nav_hamburger{
+        display: block;
+    }
+
+    .nav_mobile{
+        display: block;
+    }
+    .first_sec_contents{
+        width: 500px;
+    
+    }
+    .first_sec_contents h1{
+        font-size: 38px;
+        }
+
+        .first_sec_contents p{
+            font-size: 16px;
+            }
+
+            .Hero_img img{
+                width: 480px;
+            }
+            .main_contents{
+                width: 500px;
+            }
+            
+            .main_contents h1{
+                font-size: 22px;
+                }
+        
+            .main_img{
+                 grid-template-columns: repeat(2, 1fr);
+                 gap: 50px;
+                }
+     .main_img img{
+         width: 150px;
+     }
+
+
+
+
+     .valutico_major{
+        width: 100%;
+       }
+
+       .valutico_contents{
+        width: calc(100%-50px);
+    }
+    
+        .valutico_id{
+            flex-direction: column;
+        }
+    
+        .valutico_skill{
+        width: calc(100%-50px)
+}
+.valuation_wrapper{
+    flex-direction: column-reverse;
+}
+.valuation_sub > div {
+    width: 380px;
+}
+
+.valuation_image img{
+    width: 380px;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.valuation_sub{
+    gap: 40px;
+}
+
+.valuation_sub > div > h3 {
+    font-weight: 700;
+    font-size: 22px;
+  }
+  .valuation_sub > div > p {
+    font-weight: 600;
+    line-height: 1.6;
+    font-size: 17px;
+  }
+
+  .valuation_contents{
+    text-align: center;
+    width: 430px;
+    padding-bottom: 50px;
+}
+
+}

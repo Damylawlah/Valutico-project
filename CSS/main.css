@@ -1,0 +1,265 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+html{
+    scrollbar-width: none;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    background-color: #fff;
+}
+body{
+    font-family: manrope, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #373737;
+}
+
+        /*----- header styling----- */
+header .header_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px  30px 100px;
+    border-bottom: 1px solid #ccc;
+}
+
+header .nav ul{
+    display: flex;
+    gap: 30px;
+}
+#fa-open{
+    font-size: 25px;
+    display: none;
+}
+#fa-close{
+    font-size: 30px;
+    display: none;
+}
+.nav_mobile{
+    display: none;
+    width: 100%;
+    height: 80vh;
+    background: #065666;
+    position: absolute;
+    top: 85px;
+    left: 0;
+}
+
+.nav_mobile ul li a{
+    color: #fff;
+    font-size: 25px;
+}
+.nav_mobile ul{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding-left: 20px;
+
+}
+
+.logo_img img{
+    width: 120px;
+
+}
+
+header .nav ul .active{
+    color: #065666;
+    font-weight: 650px;
+}
+
+            /* -----header dropdown styling----- */
+
+.nav_dropdown{
+    font-size: 18px;
+    padding: 10px;
+}
+.header_btn a{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+/* ------First section Styling------ */
+.first_area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 50px;
+   
+}
+
+.First_sec_btn{
+    display: flex;
+    gap: 20px;
+}
+
+.Hero_img img{
+    width: 800px;
+}
+
+.first_sec_contents{
+    width: 700px;
+    text-align: center;
+
+}
+
+.first_sec_contents h1{
+padding-bottom: 20px;
+font-size: 45px;
+line-height: 1.5;
+}
+.first_sec_contents p{
+font-size: 20px;
+line-height: 2;
+}
+
+/* ------Main Styling starts Here---- */
+
+.main_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main_img img{
+width: 200px;
+}
+.main_img{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.main_contents{
+    width: 790px;
+    text-align: center;
+}
+
+.main_contents h1{
+    padding-bottom: 5px;
+    font-size: 25px;
+    line-height: 1.5;
+    }
+
+.main_contents p{
+    font-size: 15px;
+    line-height: 2;
+    }
+
+   /* ------ secomd Main starts here----- */
+   .valutico_major{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #111111;
+    color: #fff;
+    padding-block: 40px;
+   }
+   
+
+   .valutico_contents{
+    width: 600px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+    .valutico_contents h1{
+    padding-bottom: 10px;
+    font-size: 25px;
+    line-height: 1.5;
+    }
+
+    .valutico_contents p{
+    font-size: 15px;
+    line-height: 2;
+    }
+    .valutico_id{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 70px;
+       }
+
+    .valutico_skill{
+        width: 300px;
+    }
+    .valutico_id h1{
+        padding-bottom: 10px;
+       }
+
+/* ------valuation styling------ */
+    .valuation_image img{
+        width: 400px;
+        height: 450px;
+        border-radius: 10px;
+    }
+    
+    .accurate_valuation{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .valuation_contents{
+        text-align: center;
+        width: 790px;
+        padding-bottom: 50px;
+    }
+
+    .valuation_contents h1{
+        padding-bottom: 10px;
+    }
+
+    .valuation_wrapper{
+        display: flex;
+        gap: 55px;
+        flex: 1;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .valuation_sub{
+        max-width: 600px;
+    }
+    .valuation_image{
+        max-width: 600px;
+    }
+
+    .valuation_sub{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 45px;
+    }
+
+    .valuation_sub > div {
+        width: 280px;
+    }
+    .valuation_sub > div > h3 {
+      padding-bottom: 7px;
+      font-weight: 300;
+    }
+    .valuation_sub > div > p {
+      font-weight: 500;
+      line-height: 1.6;
+      font-size: 14px;
+    }
+
+    /* -----footer styling----- */
+    .request #button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 45px;!important
+    }
+
+    .request{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
