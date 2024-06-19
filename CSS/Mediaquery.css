@@ -128,13 +128,21 @@ width: 170px;
 
     /* -----mobile responsiveness---- */
 @media (max-width:740px){
-    header .nav ul{
+    header .nav {
+        display: none;
+    }
+    header .nav_mobile{
         display: none;
     }
 
     #fa-open{
         font-size: 25px;
         display: block;}
+
+    #fa-close{
+        font-size: 25px;
+        display: none;}
+
     .nav_hamburger{
         display: block;
     }
