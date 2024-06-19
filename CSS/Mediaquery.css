@@ -151,7 +151,7 @@ width: 170px;
         display: block;
     }
     .first_sec_contents{
-        width: 500px;
+        width: 380px;
     
     }
     .first_sec_contents h1{
@@ -163,14 +163,18 @@ width: 170px;
             }
 
             .Hero_img img{
-                width: 480px;
+                width: 350px;
             }
             .main_contents{
-                width: 500px;
+                width: 350px;
             }
             
             .main_contents h1{
                 font-size: 22px;
+                }
+            .main_contents p{
+                font-size: 22px;
+                padding-block: 20px;
                 }
         
             .main_img{
@@ -189,15 +193,16 @@ width: 170px;
        }
 
        .valutico_contents{
-        width: calc(100%-50px);
+       width: 350px;
     }
     
         .valutico_id{
+            width: 100%;
             flex-direction: column;
         }
     
         .valutico_skill{
-        width: calc(100%-50px)
+        width: 350px;
 }
 .valuation_wrapper{
     flex-direction: column-reverse;
@@ -214,7 +219,11 @@ width: 170px;
 
 .valuation_sub{
     gap: 40px;
+    width: 350px;
 }
+.valuation_sub > div{
+width: 350px;
+  }
 
 .valuation_sub > div > h3 {
     font-weight: 700;
@@ -228,8 +237,13 @@ width: 170px;
 
   .valuation_contents{
     text-align: center;
-    width: 430px;
+    width: 350px;
     padding-bottom: 50px;
+    
+}
+.valuation_contents h1{
+    padding-bottom: 10px;
+    
 }
 
 }
